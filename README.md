@@ -39,11 +39,13 @@ To complete Part III, fulfill the following requirements:
   * Set its width to ```calc(100vw)```.
   * Set its height to ```calc(100vh)```
   * Activate flexbox!
-  * Use flexbox to give space around each element horizontally and vertically
+  * Use flexbox to make the elements in a column.
+  * Use flexbox to give space around each element horizontally and vertically.
 2. Target the elements with a ```class``` of "pumpkin".
   * Set its width to 50px.
   * Set its height to 50px.
   * Set its background-image to the pumpkin.png image in the imgs folder.
+  * Set its background-size to 50px.
   * Activate flexbox!
   * Use flexbox to center items horizontally and vertically.
 3. Target the elements with a ```class``` of "row".
@@ -76,4 +78,4 @@ function generateScene(numRow) {
   //Add an Event Listener to all of the pumpkins that will react when a user mouses over the pumpkin. Onmouseover, the pumpkin's background image should be changed to "none". If the candy is found (how do we know if we have hovered over a pumpkin with a candy in it?), give an alert that you found the candy, then "reset" the scene. Call generateScene again with a random numRow value between 3 and 6.
 }
 ```
-3. Don't forget to call your start function at the bottom of your code! 
+3. Don't forget to call your start function at the bottom of your code!
